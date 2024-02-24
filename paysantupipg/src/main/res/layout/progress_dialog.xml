@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/colorTextMangeDevices"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ImageView android:layout_width="42dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_white"
+        android:layout_height="45dp"
+     />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_white"
+        android:indeterminateTint="@color/colorAccent"
+        android:padding="10dp" />
+
+    <com.paysantupipg.utils.CircularProgressBar
+        android:id="@+id/mProgressbar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        app:foregroundStrokeCap="round"
+        app:animateProgress="true"
+        app:foregroundStrokeColor="@color/colorAccent"
+        app:foregroundStrokeWidth="5dp"
+        app:indeterminate="true"/>
+
+</RelativeLayout>

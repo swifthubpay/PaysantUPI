@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="toast_time_out">Please try again, There is network error</string>
+    <string name="toast_net_work">Please try again, Network not available</string>
+    <string name="internet_not_available">Please try again, Network not available</string>
+    <string name="toast_try_after_sometimes">Something went wrong please try after sometimes..</string>
+    <string name="toast_something_wrong">Something went wrong please try again..</string>
+    <string name="bearer">Bearer</string>
+</resources>

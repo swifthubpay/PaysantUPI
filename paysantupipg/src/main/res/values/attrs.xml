@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Circle Pager Indicator -->
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+    <declare-styleable name="MyCustomTextView">
+        <attr name="setTypeFace" format="string"/>
+        <!--<attr name="setUnderLine" format="boolean"/>
+        <attr name="setSpannableColor" format="integer"/>
+        <attr name="setSpannableStartPosition" format="integer"/>
+        <attr name="setSpannableEndPosition" format="integer"/>-->
+    </declare-styleable>
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="progressIndeterminate" format="boolean"/>
+        <attr name="barColor" format="color"/>
+        <attr name="rimColor" format="color"/>
+        <attr name="rimWidth" format="dimension"/>
+        <attr name="spinSpeed" format="float"/>
+        <attr name="barSpinCycleTime" format="integer"/>
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="fillRadius" format="boolean"/>
+        <attr name="barWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="maximum" format="float"/>
+        <attr name="progress" format="float"/>
+        <attr name="animateProgress" format="boolean"/>
+        <attr name="progressAnimationDuration" format="integer"/>
+        <attr name="foregroundStrokeColor" format="color"/>
+        <attr name="foregroundStrokeWidth" format="dimension"/>
+        <attr name="drawBackgroundStroke" format="boolean"/>
+        <attr name="backgroundStrokeColor" format="color"/>
+        <attr name="backgroundStrokeWidth" format="dimension"/>
+        <attr name="startAngle" format="float"/>
+        <attr name="indeterminate" format="boolean"/>
+        <attr name="indeterminateMinimumAngle" format="float"/>
+        <attr name="indeterminateSweepAnimationDuration" format="integer"/>
+        <attr name="indeterminateRotationAnimationDuration" format="integer"/>
+        <attr name="foregroundStrokeCap" format="enum">
+            <enum name="butt" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

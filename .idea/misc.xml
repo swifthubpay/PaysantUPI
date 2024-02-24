@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Rahul/Workspace/Demo/PaysantUPI/app/src/main/res/layout/activity_main.xml" value="0.18246445497630331" />
+        <entry key="..\:/Rahul/Workspace/Demo/PaysantUPI/paysantupipg/src/main/res/drawable/rounded_white.xml" value="0.1" />
+        <entry key="..\:/Rahul/Workspace/Demo/PaysantUPI/paysantupipg/src/main/res/layout/activity_payment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Rahul/Workspace/Demo/PaysantUPI/paysantupipg/src/main/res/layout/activity_upipay.xml" value="0.17552083333333332" />
+        <entry key="..\:/Rahul/Workspace/Demo/PaysantUPI/paysantupipg/src/main/res/layout/progress_dialog.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

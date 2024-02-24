@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!-- <color name="grey">#808080 </color>-->
+    <color name="grey">#CCCCCC </color>
+    <color name="btn_text_color">#428BCA</color>
+    <color name="colorTextMangeDevices">#BDBDBD</color>
+    <color name="roundedButtonColor">#3478f6</color>
+    <color name="capacityColor">#606063</color>
+    <color name="imageBorderColor">#c9c9c9</color>
+    <color name="photosColor">#8e8f92</color>
+</resources>
