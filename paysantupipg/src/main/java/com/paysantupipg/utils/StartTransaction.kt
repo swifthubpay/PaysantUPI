@@ -60,9 +60,7 @@ class StartTransaction {
                             100 -> {
                                 val model: ResponseTransactionModel
                                 model = apiResponseManager.response as ResponseTransactionModel
-                                Log.e("TAG", "Transaction details :- ${model}")
-
-
+                               // Log.e("TAG", "Transaction details :- ${model}")
                                 if (model.status == "7") {
                                     try {
                                         val payIntent =
