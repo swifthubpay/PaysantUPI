@@ -15,7 +15,6 @@ import com.utils.isNetWork
 
 class StartTransaction {
     var TAG = this.javaClass.simpleName
-
     var bearer: String = "Bearer "
 
     fun setTransaction(
