@@ -2,8 +2,6 @@ package com.paysantupipg.utils
 
 import android.app.Activity
 import android.content.Intent
-import android.net.Uri
-import android.util.Log
 import com.paysantupipg.R
 import com.paysantupipg.model.ResponseTransactionModel
 import com.paysantupipg.rest.ApiResponseInterface
@@ -34,7 +32,7 @@ class StartTransaction {
         upiFlow: String,
         listener: PaymentStatusListener
 
-        ) {
+    ) {
         if (isNetWork(mActivity)) {
             ApiRequest(
                 mActivity,
@@ -60,7 +58,7 @@ class StartTransaction {
                             100 -> {
                                 val model: ResponseTransactionModel
                                 model = apiResponseManager.response as ResponseTransactionModel
-                               // Log.e("TAG", "Transaction details :- ${model}")
+                                // Log.e("TAG", "Transaction details :- ${model}")
                                 if (model.status == "7") {
                                     try {
                                         val payIntent =
@@ -71,14 +69,17 @@ class StartTransaction {
 
                                     } catch (e: Exception) {
                                         if (e.message!!.contains("Unable to find explicit activity class")) {
-                                            Toast("Not any UPI apps are installed", false, mActivity)
+                                            Toast(
+                                                "Not any UPI apps are installed",
+                                                false,
+                                                mActivity
+                                            )
                                         }
                                         e.printStackTrace()
                                     }
                                 } else {
                                     Toast(model.message, false, mActivity)
                                 }
-
                             }
                         }
                     }
