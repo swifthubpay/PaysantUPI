@@ -23,29 +23,24 @@ class MainActivity : AppCompatActivity() {
             try {
                 StartTransaction().setTransaction(
                     this, key = "1|3wlYVqRDyeRm60VgqSeeQy3wWRjCPZont04kSBnr079c5c66",
-                    merEmail = "rahul@gmail.com",
-                    merPhoneNo = "7567516191",
+                    merEmail = "abc@gmail.com",
+                    merPhoneNo = "9489488499",
                     merAmount = "1",
                     merCurrency = "INR",
                     merResponseUrl = "https://google.com",
-                    merchantOrderId = "kmkvsfmd",
+                    merchantOrderId = "abcbdj",
                     merWebhookUrl = "https://google.com",
                     paymentType = "upi",
                     upiFlow = "Intent",object : PaymentStatusListener{
                         override fun onTransactionDetails(transactionDetails: TransactionDetails) {
-                             Log.d(TAG,"transactionStatus-->"+transactionDetails.transactionStatus)
-                             Log.d(TAG,"amount-->"+transactionDetails.amount)
-                             Log.d(TAG,"merchantOrderId-->"+transactionDetails.merchantOrderId)
-                             Log.d(TAG,"orderId-->"+transactionDetails.orderId)
                         }
 
                         override fun onTransactionCancelled() {
-                              Log.d(TAG,"onTransactionCancelled----->")
+
                         }
                     })
             } catch (e: Exception) {
                 e.printStackTrace()
-
             }
         }
 
